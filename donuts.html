@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Donut Shop</title>
+    <script type="module" src="./donuts.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleDonut.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Online Donut Shop Interface</h1>
+    </header>
+
+    <main>
+      <!-- screen 1: pick a shop -->
+      <div id="shops">
+        <!-- new shop -->
+        <div>
+          <button id="createShop">Create a new Shop</button>
+        </div>
+
+        <!-- select existing shop -->
+        <div>
+          <button id="selectShop">Select a Shop</button>
+        </div>
+        <!-- <div id="dropDownShops">
+          Select a shop:
+          <select id="selectShops" value="Select a shop">
+            <option id="optionDonutFactory">Donut Factory</option>
+          </select>
+        </div> -->
+      </div>
+
+      <!-- screen 2: shop actions -->
+      <div id="shopActions">
+        <div>
+          <button id="newDonut">Create new Donut</button>
+        </div>
+
+        <div>
+          <button id="addDonuts">Add Donuts</button>
+        </div>
+
+        <div>
+          <button id="printInventory">Inventory / Prices / Count</button>
+        </div>
+
+        <div>
+          <button id="printRevenue">Revenue</button>
+        </div>
+
+        <div>
+          <button id="placeOrder">Place Order</button>
+        </div>
+
+        <div>
+          <button id="editPrices">Change Price</button>
+        </div>
+
+        <div>
+          <button id="refund">Need a refund?</button>
+        </div>
+
+        <!-- wanted to add this. didnt have time -->
+        <!-- <div>
+          <button id="deleteDonuts">Delete Donuts</button>
+        </div> -->
+      </div>
+      <!-- other screens will be loaded by my js -->
+    </main>
+  </body>
+</html>
